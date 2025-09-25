@@ -1,6 +1,6 @@
 using SistemasFuncionarios.Domain.Entities;
 
-namespace SistemaFuncionarios.Domain.Interfaces
+namespace SistemasFuncionarios.Domain.Interfaces
 {
     public interface IFuncionarioRepository
     {
