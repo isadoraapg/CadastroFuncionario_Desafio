@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using SistemaFuncionarios.Domain.Entities;
+using SistemasFuncionarios.Domain.Entities;
 
-namespace SistemaFuncionarios.Data.Context
+namespace SistemasFuncionarios.Data.Context
 {
     public class AppDbContext : DbContext
     {
@@ -147,7 +147,7 @@ namespace SistemaFuncionarios.Data.Context
                 
                 // Relacionamentos
                 entity.HasOne(e => e.Funcionario)
-                    .WithMany(f => f.FuncionarioCursos)
+                    .WithMany(f => f.FuncionarioCurso)
                     .HasForeignKey(e => e.FuncionarioId)
                     .OnDelete(DeleteBehavior.Cascade);
 

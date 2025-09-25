@@ -1,6 +1,6 @@
 //Interface: declara métodos que uma classe obrigatoriamente precisa implementar
 
-using SistemaFuncionarios.Domain.Entities;
+using SistemasFuncionarios.Domain.Entities;
 
 namespace SistemaFuncionarios.Domain.Interfaces
 {

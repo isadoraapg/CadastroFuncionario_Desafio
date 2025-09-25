@@ -8,7 +8,7 @@ namespace SistemasFuncionarios.Domain.Entities
 
         [Required(ErrorMessage = "O nome do funcionário é obrigatório.")]
         [StringLength(150, ErrorMessage = "O nome deve ter no máximo 150 caracteres.")]
-        public string Name { get; set; } = string.Empty;
+        public string Nome { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "O CPF é obrigatório.")]
         [StringLength(11, MinimumLength = 11, ErrorMessage = "CPF deve ter 11 dígitos.")]
