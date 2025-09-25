@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace SistemaFuncionarios.Domain.Entities
+namespace SistemasFuncionarios.Domain.Entities
 {
     public class Endereco
     {

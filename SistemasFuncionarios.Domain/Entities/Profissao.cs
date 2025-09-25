@@ -22,6 +22,6 @@ namespace SistemasFuncionarios.Domain.Entities
 
         //indica um relacionamento com outra entidade, no caso "funcionario"
         //representa uma coleção de funcionários que tem essa profissão
-        public virtual ICollection<Funcionario> Funcionario { get; set; } = new List<Funcionario>();
+        public virtual ICollection<Funcionario> Funcionarios { get; set; } = new List<Funcionario>();
     }
 }

@@ -75,3 +75,9 @@ ehthumbs.db
 
 # Auto-generated files
 Generated\ Files/
+
+.fake
+
+# Configuration files with sensitive data
+appsettings.Development.json
+appsettings.Production.json
